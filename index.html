@@ -4,35 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Fono Colince - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+
+    <!-- === HEADER === -->
     <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <p>Je suis un développeur passionné !</p>
+        <div class="container">
+            <h1>Fono Colince</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="about">
-        <h2>À propos de moi</h2>
-        <p>Salut ! Je suis un développeur web spécialisé en HTML, CSS et JavaScript.</p>
+    <!-- === HERO SECTION === -->
+    <section class="hero">
+        <div class="container">
+            <h2>Étudiant en Informatique | Passionné d'IA & Data Science</h2>
+            <p>Je crée des solutions innovantes pour un avenir meilleur.</p>
+        </div>
     </section>
 
-    <section class="projects">
-        <h2>Mes projets</h2>
-        <ul>
-            <li>📌 Projet 1 - Site vitrine</li>
-            <li>📌 Projet 2 - Application JavaScript</li>
-            <li>📌 Projet 3 - Portfolio personnel</li>
-        </ul>
+    <!-- === À PROPOS === -->
+    <section id="about" class="about">
+        <div class="container">
+            <img src="moi.png" alt="Photo de Fono Colince">
+            <div>
+                <h2>À Propos de Moi</h2>
+                <p>Étudiant en informatique à l'EILCO, je suis passionné par l'intelligence artificielle, les mathématiques appliquées et le développement logiciel.</p>
+                <p>Mes langages préférés : <strong>Python, Java, C, R</strong>.</p>
+            </div>
+        </div>
     </section>
 
+    <!-- === PROJETS === -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="project-list">
+                <div class="project">
+                    <img src="moi.png" alt="Projet 1">
+                    <h3>Projet IA</h3>
+                    <p>Un modèle d'intelligence artificielle pour l'analyse de données.</p>
+                </div>
+                <div class="project">
+                    <img src="moi.png" alt="Projet 2">
+                    <h3>Application Web</h3>
+                    <p>Développement d'une application de gestion de tâches avec React et Firebase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === CONTACT === -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <p>Email : <a href="mailto:fono.colince@gmail.com">fono.colince@gmail.com</a></p>
+            <p>LinkedIn : <a href="https://linkedin.com/in/fono-colince" target="_blank">Mon Profil</a></p>
+        </div>
+    </section>
+
+    <!-- === FOOTER === -->
     <footer>
-        <p>© 2025 - Mon Portfolio</p>
+        <div class="container">
+            <p>© 2025 Fono Colince. Tous droits réservés.</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 
 </html>
